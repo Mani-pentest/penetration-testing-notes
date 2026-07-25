@@ -25,3 +25,20 @@ Client          Server
 |–– ACK —→  |  “Great, let’s talk!”
 |               |
 |=== DATA ======|
+
+## TCP Flags
+
+| Flag | Meaning |
+|------|---------|
+| SYN | Initiates a connection. First step of handshake |
+| ACK | Confirms receipt of data. Always set after SYN |
+| RST | Immediately terminates connection forcefully |
+| FIN | Gracefully closes connection in ordered manner |
+| PSH | Forces immediate delivery of data |
+| URG | Marks data as urgent, processed before other data |
+
+## Why Pentesters Care
+Nmap uses handshake to detect open ports:
+- Send SYN → Get SYN-ACK back = port is OPEN
+- Send SYN → Get RST back = port is CLOSED
+- Send SYN → No response = port is FILTERED (firewall)
