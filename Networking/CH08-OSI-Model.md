@@ -1,4 +1,4 @@
-# CH-8: OSI Model
+# CH-08: OSI Model
 
 ## Definition
 **OSI Model (Open Systems Interconnection)** — A conceptual 
