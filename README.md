@@ -20,7 +20,7 @@ eJPT → PNPT → OSCP
 | Active Directory Attacks | ⏳ Upcoming |
 
 ## Platforms
-- TryHackMe: [your profile URL here]
+- TryHackMe: [https://tryhackme.com/p/manikantarapolu9]
 - GitHub: github.com/Mani-pentest
 
 ## Tools Learning
