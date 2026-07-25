@@ -1,4 +1,4 @@
-# CH-9: Subnetting
+# CH-09: Subnetting
 
 ## Definition
 **Subnet** — A smaller logical division of a larger network.
