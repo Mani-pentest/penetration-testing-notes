@@ -1,4 +1,4 @@
-# CH-7: DNS
+# CH-07: DNS
 
 ## Definition
 **DNS (Domain Name System)** — The internet's phonebook. 
