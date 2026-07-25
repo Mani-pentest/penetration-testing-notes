@@ -1,4 +1,4 @@
-# CH-6: TCP vs UDP
+# CH-06: TCP vs UDP
 
 ## TCP (Transmission Control Protocol)
 **Definition** — A reliable, connection-oriented protocol 
