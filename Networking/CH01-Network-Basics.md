@@ -1,4 +1,4 @@
-# CH-1: Network Basics
+# CH-01: Network Basics
 
 ## Definition
 **Network** — Two or more computers connected 
