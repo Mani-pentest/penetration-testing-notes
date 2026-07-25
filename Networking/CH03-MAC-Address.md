@@ -1,4 +1,4 @@
-# CH-3: MAC Address
+# CH-03: MAC Address
 
 ## Definition
 **MAC Address (Media Access Control)** — A permanent 
