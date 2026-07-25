@@ -1,28 +1,38 @@
-# CH-4: PORTS
+# CH-5: Ports
 
 ## Definition
-**Packet** — A small chunk of data. Large data is broken 
-into multiple packets before traveling across a network. 
-Each packet travels independently and reassembles 
-at destination.
+**Port** — A virtual door on a computer that identifies 
+which application or service incoming data belongs to. 
+Every computer has 65,535 ports.
 
 ## Analogy
-Sending a 100-page book through WhatsApp:
-- Book gets split into 100 pages
-- Each page is put in a separate envelope
-- Each envelope has:
-  - Where it's going (destination IP)
-  - Where it came from (source IP)
-  - Which page number it is (sequence number)
-- They all travel separately and reassemble at destination
+Think of your IP as a building and ports as individual doors:
+- 192.168.1.5 : 80 → goes to web server
+- 192.168.1.5 : 22 → goes to SSH service
+- 192.168.1.5 : 443 → goes to HTTPS service
 
-## Components
+## Port Ranges
+- Well-known ports: 0–1023
+- Registered ports: 1024–49,151
+- Dynamic ports: 49,152–65,535
 
-**Packet Header** — Contains source IP, destination IP, 
-sequence number and other control information.
+## Key Ports Every Pentester Must Memorize
 
-**Packet Payload** — The actual data being carried 
-inside the packet.
+| Port | Protocol | Attack Relevance |
+|------|----------|-----------------|
+| 21 | FTP | Anonymous login, cleartext creds |
+| 22 | SSH | Brute force, key attacks |
+| 23 | Telnet | Cleartext — sniff credentials |
+| 25 | SMTP | Email relay attacks |
+| 53 | DNS | Zone transfer, DNS poisoning |
+| 80 | HTTP | Web attacks, OWASP Top 10 |
+| 443 | HTTPS | Same as HTTP, encrypted |
+| 445 | SMB | EternalBlue, Pass-the-Hash |
+| 3306 | MySQL | SQL injection, direct DB access |
+| 3389 | RDP | Brute force, BlueKeep |
 
-## Key Point
-This is exactly how data travels on a network.
+## Command
+```bash
+netstat -tulnp
+# Shows all open ports on your machine right now
+
