@@ -1,4 +1,4 @@
-# CH-2: IP Address
+# CH-02: IP Address
 
 ## Definition
 **IP Address (Internet Protocol Address)** — A unique 
