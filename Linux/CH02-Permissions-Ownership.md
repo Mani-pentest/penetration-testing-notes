@@ -67,3 +67,17 @@ Changes ownership of a file.
 
 ### Identifying SUID
 Permissions = read/write/execute, evaluated per category, plus a special `s` in the owner slot:
+-rwsr-xr-x
+Numerically, SUID adds **4000** to the permission value.
+
+### Commands
+| Command | Purpose |
+|---------|---------|
+| `chmod u+s script.sh` | Sets SUID on the owner category |
+| `chmod 4755 script.sh` | Sets SUID + rwxr-xr-x numerically |
+
+### Finding All SUID Files on a System
+```bash
+find / -perm -4000 -type f 2>/dev/null
+```
+Searches the entire filesystem for files with the SUID bit set — a common privilege-escalation target when the file's owner is `root`.
