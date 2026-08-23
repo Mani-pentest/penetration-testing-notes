@@ -13,7 +13,7 @@ eJPT → PNPT → OSCP
 | Module | Status |
 |--------|--------|
 | Networking Fundamentals | ✅ Complete |
-| Linux Fundamentals | 🔄 In Progress |
+| Linux Fundamentals | ✅ In Progress |
 | Web Application Pentesting | ⏳ Upcoming |
 | Network Pentesting | ⏳ Upcoming |
 | Privilege Escalation | ⏳ Upcoming |
