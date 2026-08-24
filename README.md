@@ -4,16 +4,20 @@
 Structured notes documenting my journey from 
 B.Tech Cybersecurity graduate to Junior Pentester.
 Self-studying penetration testing through a 
-structured 90-day roadmap.
+structured 124-day roadmap.
 
 ## Certification Path
 eJPT → PNPT → OSCP
 
 ## Progress
+
 | Module | Status |
 |--------|--------|
 | Networking Fundamentals | ✅ Complete |
-| Linux Fundamentals | ✅ In Progress |
+| Linux Fundamentals | ✅ Complete |
+| Windows Fundamentals | 🔄 In Progress |
+| Active Directory Basics | ⏳ Upcoming |
+| Security Fundamentals | ⏳ Upcoming |
 | Web Application Pentesting | ⏳ Upcoming |
 | Network Pentesting | ⏳ Upcoming |
 | Privilege Escalation | ⏳ Upcoming |
