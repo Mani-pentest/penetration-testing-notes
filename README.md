@@ -15,8 +15,9 @@ eJPT → PNPT → OSCP
 |--------|--------|
 | Networking Fundamentals | ✅ Complete |
 | Linux Fundamentals | ✅ Complete |
-| Windows Fundamentals | 🔄 In Progress |
-| Active Directory Basics | ⏳ Upcoming |
+| Windows Fundamentals | ✅ Complete |
+| Active Directory Basics | ✅ Complete |
+| Programming (Python) | 🔄 In Progress |
 | Security Fundamentals | ⏳ Upcoming |
 | Web Application Pentesting | ⏳ Upcoming |
 | Network Pentesting | ⏳ Upcoming |
