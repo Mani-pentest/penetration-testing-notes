@@ -2,12 +2,13 @@
 
 ## About
 Structured notes documenting my journey from 
-B.Tech Cybersecurity graduate to Junior Pentester.
-Self-studying penetration testing through a 
-structured 124-day roadmap.
+B.Tech Cybersecurity graduate toward SOC Analyst 
+and Junior Pentester roles. Self-studying through a 
+structured 124-day roadmap, alongside the Google 
+Cybersecurity Professional Certificate (Coursera).
 
 ## Certification Path
-eJPT → PNPT → OSCP
+Google Cybersecurity Professional Certificate (Complete) → eJPT → PNPT → OSCP
 
 ## Progress
 
@@ -17,8 +18,8 @@ eJPT → PNPT → OSCP
 | Linux Fundamentals | ✅ Complete |
 | Windows Fundamentals | ✅ Complete |
 | Active Directory Basics | ✅ Complete |
-| Programming (Python) | 🔄 In Progress |
-| Security Fundamentals | ⏳ Upcoming |
+| Programming (Python, Bash, JS) | ✅ Complete |
+| Security Fundamentals | 🔄 In Progress |
 | Web Application Pentesting | ⏳ Upcoming |
 | Network Pentesting | ⏳ Upcoming |
 | Privilege Escalation | ⏳ Upcoming |
