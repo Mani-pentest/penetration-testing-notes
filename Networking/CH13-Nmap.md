@@ -54,13 +54,15 @@ nmap -sV -sC -p- -T4 192.168.1.1
 
 # Save results to file (always do in real engagements)
 nmap -sV -oN output.txt 192.168.1.1
+```
 
+## Key Flags
 
-Key Flags
-
-	•	-sV → Service version detection
-	•	-sC → Default scripts
-	•	-p- → All 65535 ports
-	•	-T4 → Faster timing
-	•	-Pn → Skip ping (use when ICMP blocked)
-	•	-oN → Save output to file
+| Flag | Purpose |
+|---|---|
+| `-sV` | Service version detection |
+| `-sC` | Default scripts |
+| `-p-` | All 65535 ports |
+| `-T4` | Faster timing |
+| `-Pn` | Skip ping (use when ICMP blocked) |
+| `-oN` | Save output to file |
