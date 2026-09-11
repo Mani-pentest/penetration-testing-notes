@@ -23,7 +23,6 @@ GTFOBins (gtfobins.github.io) is a curated reference listing standard Unix binar
 ## Why It Works
 Any child process spawned by a SUID binary inherits that binary's effective privileges, not the privileges of the user who launched it. This is the underlying mechanism behind every SUID exploitation technique — SUID is considered the first step of privilege escalation.
 
-## Manual Exploitation Commands
 ## Practical Example
 ```bash
 find / -perm -4000 -type f 2>/dev/null
